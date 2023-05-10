@@ -1,0 +1,12 @@
+{
+  "name": "daily tabs",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Automatically opens three websites when a new window is opened.",
+  "author": "Hamdy Abdelazeim",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs"]
+}
